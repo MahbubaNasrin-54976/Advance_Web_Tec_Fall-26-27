@@ -1,0 +1,22 @@
+ course-management-api                              |   1 [31m-[m
+ course-management-api/.gitignore                   |  59 [32m++++++++++[m
+ .../.oxlintrc.json                                 |   0
+ .prettierrc => course-management-api/.prettierrc   |   0
+ course-management-api/README.md                    | 124 [32m+++++++++++++++++++++[m
+ .../nest-cli.json                                  |   0
+ .../package-lock.json                              |   0
+ package.json => course-management-api/package.json |   0
+ .../src}/app.controller.spec.ts                    |   0
+ .../src}/app.controller.ts                         |   0
+ {src => course-management-api/src}/app.module.ts   |   0
+ {src => course-management-api/src}/app.service.ts  |   0
+ .../src}/course/course.controller.ts               |   0
+ .../src}/course/course.module.ts                   |   0
+ .../src}/course/course.service.ts                  |   0
+ {src => course-management-api/src}/main.ts         |   0
+ .../test}/app.e2e-spec.ts                          |   0
+ .../tsconfig.build.json                            |   0
+ .../tsconfig.json                                  |   0
+ .../vitest.config.e2e.ts                           |   0
+ .../vitest.config.ts                               |   0
+ 21 files changed, 183 insertions(+), 1 deletion(-)
